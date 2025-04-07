@@ -1,13 +1,4 @@
 Student Performance Prediction
-This project uses Linear Regression (from scratch with NumPy & pandas) to predict student performance based on inputs like study hours, sleep, previous scores, etc.
+This project aims to predict student performance using Linear Regression implemented from scratch with only NumPy and pandas. The model takes input features like hours of study, sleep duration, previous scores, extracurricular activities, and practice level to estimate a student's academic performance.
 
-🔧 Features:
-Cleaned and explored the data
-
-Split the data into training and testing (80:20)
-
-Built Linear Regression from scratch
-
-Evaluated using MSE and R² score
-
-Made predictions on sample input
+We started with Exploratory Data Analysis (EDA) to understand the dataset and clean the data for better model accuracy. After preprocessing, the dataset was split into training and testing sets (80:20 ratio). A custom Linear Regression model was built from scratch without using any machine learning libraries. The model was trained on the dataset, and its performance was evaluated using Mean Squared Error (MSE) and R² Score. Finally, we used the model to make predictions on sample student data.
